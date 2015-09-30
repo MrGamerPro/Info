@@ -1,0 +1,21 @@
+---
+name: info
+author: CaptainKenji17
+version: 1.0.0
+api: [1.12.0]
+main: Info/Main
+descriptiom: Plugin that gives you the info by typing a command
+
+Commands:
+    Info:
+        description: Gives info to a player
+        permission: info.cmd
+
+Permissions:
+    info.cmd:
+        default: true
+        description: Gives info to a player
+        
+ 
+ 
+ 
