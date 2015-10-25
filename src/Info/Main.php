@@ -22,6 +22,7 @@ class Main extends PluginBase {
                    $level = $sender->getLevel();
                    $level->addSound(new ClickSound($sender->getLocation()));
                    $sender->sendMessage("Info \n1.Test\n2. Test2");
+                   $sender->sendTip("You are running the INFO command...");
                    return;
                 } else {
                       $sender->sendMessage("this command requires nothing");
